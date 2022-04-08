@@ -11,7 +11,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     height: 69px;
-    /* position: fixed; */
+    margin-bottom: 50px;
     width: 100%;
     border-bottom: solid 1px seashell;
 }
@@ -34,8 +34,105 @@ li {
     cursor: pointer;
 }
 
+.header-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 header {
     height: 700px;
+    width: 90%;
     background-image: url("./resources/img-mission-background.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
 
+.mission-container {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tea-month-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tea-month {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+.tea-images {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption {
+    margin-top: 10px;
+    color:rgba(255, 245, 238, 0.562);
+    font-size: 0.8rem;
+}
+
+.locations-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.locations {
+    background-image: url("./resources/img-contact-bkg.jpg");
+    background-size: cover;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.location-box {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#email {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    font-size: 0.8rem;
+    font-style: italic;
 }
